@@ -88,17 +88,16 @@ label {
   background: linear-gradient(to left, #02e4e4, #8419ee);
   color: #1f1c1c;
   border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px; }
+  border-bottom-right-radius: 15px;
+  z-index: 99; }
   .header__swiper:hover {
     cursor: pointer; }
 
 .say-decision {
-  min-height: 100px;
-  margin: 0 auto;
+  margin: 20px auto 0;
   color: white;
   width: 320px;
   text-align: center;
-  padding-top: 30px;
   font-size: 40px; }
 
 .main-container {
